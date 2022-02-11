@@ -1,12 +1,12 @@
 /* First Landing Page Project */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 /* General font applied throughout */
 *{
     font-family: roboto, "sans serif";
 }
 
 .background-color-top{
-    background-color: #3d495a;
+    background-color: #805f1a;
 }
 
 /* Start of header flexbox items */
@@ -33,14 +33,19 @@ a{
 
 /* Start of Hero Flexbox items */
 .hero{
-    justify-content: space-evenly;
     display: flex;
+    height: 500px;
+    justify-content: center;
+    padding: 150px;
 }
 
-h1{
+h2{
     font-size:42px;
     color: white;
+    margin: 0px;
 }
+
+
 
 .hero-paragraph{
     font-size: 16px;
@@ -50,7 +55,7 @@ h1{
 
 button{
 border-radius: 8px;
-background-color: white;
+background-color: rgb(236, 233, 185);
 color: black;
 font-size: 20px;
 padding: 4px;
@@ -60,5 +65,69 @@ border-style: none;
 }
 
 .hero-food{
-    width: 500px;
+    height: 500px;
+    border-radius: 8px;
 }
+
+/* Start of thumbnail */
+
+.thumbnail-title, .thumbnails{
+    background-color: rgb(230, 227, 191);
+}
+
+.thumbnail-title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align:center;
+    padding-bottom: 32px;
+    padding-top: 16px;
+  }
+
+.thumbnails{
+    display: flex;
+    justify-content: center;
+    height:250px;
+    gap: 16px;
+}
+
+.thumbnail-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.thumbnail-food-photo{
+    height: 184px;
+    border-radius: 8px;
+}
+
+.thumbnail-text{
+    text-align: center;
+}
+
+.quote{
+    display: flex;
+    background-color: #805f1a;
+    justify-content: center;
+
+}
+
+.quote-text{
+    font-size: 36px;
+    color: white;
+    font-style: italic;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+/*
+.footer{
+    background-color:805f1a;
+    color: white;
+}
+*/
