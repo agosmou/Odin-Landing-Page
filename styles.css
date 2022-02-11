@@ -110,6 +110,8 @@ border-style: none;
     display: flex;
     background-color: #805f1a;
     justify-content: center;
+    align-items: center;
+    height: 200px;
 
 }
 
@@ -118,6 +120,7 @@ border-style: none;
     color: white;
     font-style: italic;
     flex-wrap: wrap;
+    width: 500px;
 }
 
 
